@@ -49,7 +49,7 @@ If you are using GitHub to commit and push your changes, then you should have it
 1. Now, you have saved your commit locally, but we want to push this to the remote repository on GitHub where the author can accept your changes. Press "Push."
 
 ## RStudio
-If you are using RStudio to commit and push your changes, then you should have already connecting Git and RStudio. If you did, you will see the git symbol up in the menu bar. 
+If you are using RStudio to commit and push your changes, then you should have already connected GitHub and RStudio. If you did, you will see the git symbol up in the menu bar. 
 
 1. Click the git symbol and press "commit"
 1. Stage (i.e., select) the files that you want to save. 
