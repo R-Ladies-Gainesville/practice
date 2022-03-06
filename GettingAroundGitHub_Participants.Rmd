@@ -1,0 +1,29 @@
+---
+title: "Getting around GitHub Participants"
+author: "Michelle Slawinski"
+date: "3/6/2022"
+output: html_document
+---
+
+We will use this file to document who attended the Getting around GitHub tutorial!
+
+Below is how you code a list in an RMarkdown file. Type your name on one of the following lines. 
+
+1. Michelle Slawinski
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+
+Next, save your changes. Then you can either use RStudio or GitHub Desktop to commit and push your changes, your choice! It will depend on what you have installed and set up.
+
+## GitHub
+* Open GitHub Desktop
