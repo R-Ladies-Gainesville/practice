@@ -13,7 +13,7 @@ We will use this file to not only document who attended the Getting around GitHu
 Type your name on one of the following lines.
 
 1. Michelle Slawinski
-1.
+1. Testing
 1.
 1.
 1.
