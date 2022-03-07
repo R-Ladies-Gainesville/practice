@@ -47,6 +47,8 @@ If you are using GitHub to commit and push your changes, then you should have it
    - Example: Adds 'Michelle Slawinski' to list.
 1. Press commit!
 1. Now, you have saved your commit locally, but we want to push this to the remote repository on GitHub where the author can accept your changes. Press "Push."
+1. Then complete a pull request in GitHub
+1. Wallah!
 
 ## RStudio
 If you are using RStudio to commit and push your changes, then you should have already connected GitHub and RStudio. If you did, you will see the git symbol up in the menu bar. 
@@ -55,4 +57,6 @@ If you are using RStudio to commit and push your changes, then you should have a
 1. Stage (i.e., select) the files that you want to save. 
 1. Write a commit message in the description box. Like with GitHub desktop, you will want to use present tense. See above.
 1. Press commit!
-1. Then click "Push" and wallah!
+1. Click "Push" 
+1. Then complete a pull request in GitHub
+1. Wallah!
