@@ -1,0 +1,167 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Getting around GitHub Participants},
+  pdfauthor={Michelle Slawinski},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Getting around GitHub Participants}
+\author{Michelle Slawinski}
+\date{3/6/2022}
+
+\begin{document}
+\maketitle
+
+We will use this file to not only document who attended the Getting
+around GitHub tutorial but as a practice document for how to grab a
+repository, make changes to a file, commit those changes and push them
+back to the main repository on GitHub.
+
+Below is how you code a list in an RMarkdown file. Type your name on one
+of the following lines.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Michelle Slawinski
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\end{enumerate}
+
+Next, save your changes. Then you can either use RStudio or GitHub
+Desktop to commit and push your changes, your choice! It will depend on
+what you have installed and set up.
+
+\hypertarget{github}{%
+\subsection{GitHub}\label{github}}
+
+If you are using GitHub to commit and push your changes, then you should
+have it downloaded on your computer.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Open GitHub Desktop
+\item
+  Click the ``Current Repository'' in the upper lefthand corner
+\item
+  Click the ``practice'' repository
+\item
+  If you saved your changes in RStudio, you should see that there is an
+  orange box with a dot inside. If you hover over this, it should say
+  ``modified''
+\item
+  Below this, there is a text box. This is where you will type a commit
+  message. Remember, committing just means you are saving this to your
+  local operating system. The message should be short but descriptive.
+  One tip is to keep your message in present tense. An easy way to think
+  about it is imagine you start each commit with, ``This
+  commit\ldots{}'' then your message.
+\item
+  Example: Updates the participant list with my name.
+\item
+  Adds `Michelle Slawinski' to list.
+\item
+  Press commit!
+\item
+  Now, you have saved your commit locally, but we want to push this to
+  the remote repository on GitHub where the author can accept your
+  changes. Press ``Push.''
+\end{enumerate}
+
+\hypertarget{rstudio}{%
+\subsection{RStudio}\label{rstudio}}
+
+If you are using RStudio to commit and push your changes, then you
+should have already connecting Git and RStudio. If you did, you will see
+the git symbol up in the menu bar.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Click the git symbol and press ``commit''
+\item
+  Stage (i.e., select) the files that you want to save.
+\item
+  Write a commit message in the description box. Like with GitHub
+  desktop, you will want to use present tense. See above.
+\item
+  Press commit!
+\item
+  Then click ``Push'' and wallah!
+\end{enumerate}
+
+\end{document}
