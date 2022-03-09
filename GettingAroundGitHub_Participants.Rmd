@@ -39,9 +39,10 @@ Then you can either use RStudio or GitHub Desktop to commit and push your change
 
 If you are using GitHub to commit and push your changes, then you should have it downloaded on your computer.
 
-1. Open GitHub Desktop
+1. Open GitHub Desktop if you do not already have it open
 1. Click the "Current Repository" in the upper lefthand corner
 1. Click the "practice" repository
+1. Click on the branch you just made in the practice repository
 1. If you saved your changes in RStudio, you should see that there is an orange box with a dot inside. If you hover over this, it should say "modified"
 1. Below this, there is a text box. This is where you will type a commit message. Remember, committing just means you are saving this to your local operating system. The message should be short but descriptive. One tip is to keep your message in present tense. An easy way to think about it is imagine you start each commit with, "This commit..." then your message. 
    - Example: Updates the participant list with my name. 
