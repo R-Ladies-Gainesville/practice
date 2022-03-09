@@ -1,7 +1,7 @@
 ---
 title: "Getting Around GitHub: Participants"
 author: "Michelle Slawinski"
-date: "3/6/2022"
+date: "3/11/2022"
 output:
   html_document: default
   word_document: default
@@ -10,24 +10,12 @@ output:
 
 We will use this file to not only document who attended the Getting around GitHub tutorial but as a practice document for how to grab a repository, make changes to a file, commit those changes and push them back to the main repository on GitHub.
 
-Type your name on one of the following lines.
+Type your name below like these attendees have. Make sure to write "1.[space]" before your name. With RMarkdown files, it will automatically number our list. 
 
 1. Michelle Slawinski
-1. Testing
 1. Amy Kendig
 1. Amy Bauer
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
+
 
 Next, save your changes. 
 
@@ -39,25 +27,28 @@ Then you can either use RStudio or GitHub Desktop to commit and push your change
 
 If you are using GitHub to commit and push your changes, then you should have it downloaded on your computer.
 
-1. Open GitHub Desktop
+1. Open GitHub Desktop if you do not already have it open
 1. Click the "Current Repository" in the upper lefthand corner
 1. Click the "practice" repository
+1. Click on the branch you just made in the practice repository
 1. If you saved your changes in RStudio, you should see that there is an orange box with a dot inside. If you hover over this, it should say "modified"
 1. Below this, there is a text box. This is where you will type a commit message. Remember, committing just means you are saving this to your local operating system. The message should be short but descriptive. One tip is to keep your message in present tense. An easy way to think about it is imagine you start each commit with, "This commit..." then your message. 
    - Example: Updates the participant list with my name. 
-   - Example: Adds 'Michelle Slawinski' to list.
+   - Example: Adds 'Michelle Slawinski' to attendee list.
 1. Press commit!
-1. Now, you have saved your commit locally, but we want to push this to the remote repository on GitHub where the author can accept your changes. Press "Push."
-1. Then complete a pull request in GitHub
-1. Wallah!
+1. Now, you have saved your commit locally, but we want to first hit publish branch then we create a pull request. Click the pull request button on GitHub Desktop and it will take you to your browser. 
+1. Your commit message should have transferred into the pull request online. If it didn't or if you want to add more information, do so here. 
+1. Submit the request and then pat yourself on the back, you submitted your first pull request!
+1. Huzzah!
 
 ## RStudio
 If you are using RStudio to commit and push your changes, then you should have already connected GitHub and RStudio. If you did, you will see the git symbol up in the menu bar. 
 
-1. Click the git symbol and press "commit"
-1. Stage (i.e., select) the files that you want to save. 
+1. Click the git symbol and press "Pull in Branches." If you created your branch using remote GitHub or GitHub desktop, then in R, you just need to pull that branch in with the git tab. Laughing as I type *just* because I haven't gotten it to work yet.
+1. Next, click "commit" on the git tab
+1. Stage (i.e., select) the files that you want to save.
 1. Write a commit message in the description box. Like with GitHub desktop, you will want to use present tense. See above.
-1. Press commit!
+1. Make sure the branch you are commiting with is the one you want. This option will be in the top lefthand corner next to Changes/History. 
 1. Click "Push" 
-1. Then complete a pull request in GitHub
+1. Then on GitHub, go and create a pull request in the practice repository
 1. Wallah!
